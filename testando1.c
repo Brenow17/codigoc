@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 int main(){
-    printf("Hello World!");
+    int i;
+    printf("Hello World!\n");
+    i = 1 + 1;
+    printf("sua idade eh %d anos", i);
 
     return 0;
 }
